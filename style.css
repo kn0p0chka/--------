@@ -1,0 +1,91 @@
+.f {
+  height: 250px;
+  width: 500px;
+  border-radius: 50px;
+  margin: 10px;
+  -webkit-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  -moz-box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  box-shadow: 0px 5px 10px 2px rgba(34, 60, 80, 0.2);
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  justify-content: center;
+}
+
+.one {
+  background: rgb(255, 169, 232);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 169, 232, 1) 15%,
+    rgba(0, 212, 255, 1) 94%
+  );
+}
+
+.two {
+  background: rgb(255, 93, 93);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 93, 93, 1) 0%,
+    rgba(255, 245, 99, 1) 95%
+  );
+}
+
+.three {
+  background: rgb(165, 255, 151);
+  background: linear-gradient(
+    90deg,
+    rgba(165, 255, 151, 1) 0%,
+    rgba(146, 255, 252, 1) 95%
+  );
+}
+.text2 {
+  color: rgba(0, 0, 0, 0.575);
+  font-size: 15px;
+  position: absolute;
+  top: 15px;
+  left: 50px;
+  padding: 0;
+  font-family: "Lato", sans-serif;
+}
+
+.text {
+  color: rgba(0, 0, 0, 0.678);
+  font-size: 35px;
+  margin-left: 50px;
+  font-family: "Mohave", sans-serif;
+}
+
+.img {
+  size: 10px;
+}
+
+.f:hover {
+  height: 260px;
+  width: 510px;
+}
+.one:hover {
+  background: rgb(255, 0, 116);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 116, 1) 0%,
+    rgba(0, 241, 255, 1) 100%
+  );
+}
+
+.two:hover {
+  background: rgb(255, 0, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(255, 0, 0, 1) 0%,
+    rgba(248, 255, 0, 1) 100%
+  );
+}
+
+.three:hover {
+  background: rgb(35, 255, 0);
+  background: linear-gradient(
+    90deg,
+    rgba(35, 255, 0, 1) 0%,
+    rgba(0, 255, 248, 1) 95%
+  );
+}
